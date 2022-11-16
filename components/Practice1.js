@@ -11,4 +11,4 @@ const Practice1 = () => {
   )
 }
 
-export default Practice1
+export default Practice1;
