@@ -15,15 +15,15 @@ const UserNamePassword = () => {
   const checkTextInput = () => {
     if (!userName.trim()) {
       alert("Please Enter Name");
-      return;
+      
     }
     else if(!passWord.trim()){
         alert("Please Enter Email");
-        return;
+       
     }
     else{
         alert("Success");
-        return;
+        
     }
   };
 
@@ -44,9 +44,9 @@ const UserNamePassword = () => {
           style={styles.textInputStyle}
         />
         <View style={{ marginTop: 10 }}>
-          <Button title="submit" onPress={()=>{
-            checkTextInput();
-          }} />
+          <Button title="submit" onPress={
+            checkTextInput
+          } />
         </View>
       </View>
     </SafeAreaView>

@@ -12,6 +12,11 @@ import MyCustomTextWith from "./components/MyCustomTextWith";
 import Count from "./components/Count";
 import TextInput2 from "./components/TextInput2";
 import UserNamePassword from "./components/UserNamePassword";
+import AlertExample from "./components/AlertExample";
+import ImageWithTextInput from "./components/ImageWithTextInput";
+import ButtonExample from "./components/ButtonExample";
+import TouchablePractice from "./components/TouchablePractice";
+import TouchableExample from "./components/TouchableExample";
 
 const App = () => {
   return (
@@ -20,13 +25,23 @@ const App = () => {
       {/* <Welcome></Welcome> */}
       {/* <Practice1></Practice1> */}
       {/* <TxtInput></TxtInput> */}
+
       {/* <CustomComponent/> */}
       {/* <Logo/> */}
       {/* <LotsOfGreeting/> */}
+
       {/* <MyCustomTextWith/> */}
       {/* <Count num={2} title = "Click"/> */}
       {/* <TextInput2 /> */}
-      <UserNamePassword/>
+
+      {/* <UserNamePassword/> */}
+      {/* <AlertExample/> */}
+      {/* <ImageWithTextInput/> */}
+
+      {/* <ButtonExample/> */}
+      {/* <TouchableExample/> */}
+      <TouchablePractice/>
+
     </View>
   );
 };
