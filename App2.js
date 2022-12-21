@@ -9,9 +9,6 @@ import HomePost from "./screens/HomePost";
 import CreatePost from "./screens/CreatePost";
 import FirstPage from "./screens/FirstPage";
 import SecondPage from "./screens/SecondPage";
-import FirstPage2 from "./screens/FirstPage2";
-import SecondPage2 from "./screens/SecondPage2";
-import ThirdPage2 from "./screens/ThirdPage2";
 
 
 
@@ -55,9 +52,8 @@ const App = () => {
         {/* <Stack.Screen name="HomePost" component={HomePost} />
         <Stack.Screen name="CreatePost" component={CreatePost} /> */}
         
-        <Stack.Screen name="FirstPage2" component={FirstPage2} />
-        <Stack.Screen name="SecondPage2" component={SecondPage2} />
-        <Stack.Screen name="ThirdPage2" component={ThirdPage2} />
+        <Stack.Screen name="FirstPage" component={FirstPage} />
+        <Stack.Screen name="SecondPage" component={SecondPage} />
       </Stack.Navigator>
     </NavigationContainer>
   );
