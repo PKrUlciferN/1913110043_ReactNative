@@ -6,7 +6,7 @@ const ThirdPage2 = ({ navigation }) => {
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <View style={styles.container}>
-        <Text style={styles.textTopStyle}>This is the First Page</Text>
+        <Text style={styles.textTopStyle}>This is the Third Page</Text>
         <Text style={{ padding: 5 }} />
         <Button
           style={{ padding: 20 }}
