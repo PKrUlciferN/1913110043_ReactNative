@@ -56,14 +56,14 @@ const HomeScreen = ({ navigation }) => {
     >
       <Ionicons name="home" size={24} color="black" />
       <Text>Home Screen</Text>
-      {/* <Button
-        title="About Us"
+      <Button
+        title="Go to about"
         onPress={() =>
           navigation.navigate("About", {
             email: "reactNative@tni.ac.th",
           })
         }
-      /> */}
+      />
     </View>
   );
 };
