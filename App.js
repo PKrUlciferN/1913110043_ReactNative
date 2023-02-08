@@ -36,6 +36,25 @@ function CustomDrawerContent(props) {
 }
 
 const Stack = createNativeStackNavigator();
+
+function ProductStack() {
+  return (
+    <Stack.Navigator
+      screenOptions={{
+        headerStyle: {
+          backgroundColor: '#6666FF'
+        },
+        headerTinColor: '#ffffff',
+        headerTitleStyle: {
+          fonWeight: 'bold'
+        }
+      }}>
+      <Stack.Screen name='Product' component={ProductScreen} />
+      <Stack.Screen name='Detail' component={DetailScreen} />
+    </Stack.Navigator>
+  )
+}
+
 function MyStack1() {
   return (
     <Stack.Navigator
@@ -90,7 +109,7 @@ function MyDrawer() {
       drawerContent={(props) => <CustomDrawerContent {...props} />}
     >
       <Drawer.Screen name="Home" component={MyStack1} />
-      <Drawer.Screen name="Product" component={MyStack2} />
+      <Drawer.Screen name="Product" component={ProductStack} />
       {/* <Drawer.Screen name="Detail" component={MyStack3} /> */}
       
     </Drawer.Navigator>
